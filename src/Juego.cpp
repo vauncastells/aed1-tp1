@@ -28,8 +28,11 @@ std::vector<Nivel>& Juego::nivelesJ()
 {
 }
 
-void Juego::agregarNivel(Nivel& n)
+void Juego::agregarNivel(Nivel& n,int i)
 {
+}
+
+void Juego::jugarNivel(Nivel& n, int i){
 }
 
 std::vector<Nivel> Juego::estosSaleFacil()

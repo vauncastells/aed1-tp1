@@ -52,6 +52,9 @@ bool Nivel::obsesivoCompulsivo()
 {
 }
 
+void Nivel::comprarSoles(int n){
+}
+
 void Nivel::Mostrar(std::ostream& os)
 {
 }
