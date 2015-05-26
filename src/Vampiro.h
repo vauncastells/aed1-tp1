@@ -6,6 +6,7 @@
 
 class Vampiro
 {
+private:
 
 	Vida _vida;
 	int _cuantoPega;

@@ -1,5 +1,6 @@
 #include "Juego.h"
 
+/*
 Juego::Juego()
 {
 }
@@ -7,15 +8,17 @@ Juego::Juego()
 Juego::Juego(std::vector<Flor>& flores, std::vector<Vampiro>& vamps)
 {
 }
-
+*/
 int Juego::nivelActual()
 {
+    return this->_nivelActual;
 }
 
 void Juego::pasarNivel()
 {
+    _nivelActual + 1;
 }
-
+/*
 std::vector<Flor>& Juego::floresJ()
 {
 }
@@ -28,8 +31,11 @@ std::vector<Nivel>& Juego::nivelesJ()
 {
 }
 
-void Juego::agregarNivel(Nivel& n)
+void Juego::agregarNivel(Nivel& n,int i)
 {
+}
+
+void Juego::jugarNivel(Nivel& n, int i){
 }
 
 std::vector<Nivel> Juego::estosSaleFacil()
@@ -55,3 +61,4 @@ void Juego::Guardar(std::ostream& os)
 void Juego::Cargar(std::iostream& is)
 {
 }
+*/
