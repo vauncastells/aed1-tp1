@@ -17,8 +17,8 @@ private:
 	std::vector<Vampiro> _vampiros;
 	std::vector<Nivel> _niveles;
 	int _nivelActual;
-	bool Juego::esFacil(int i);
-	std::vector<int> Juego::nivelesGanados();
+
+    friend std::ostream& operator<<(std::ostream& out, Juego& j);
 
 public:
 
@@ -30,7 +30,7 @@ public:
 	std::vector<Vampiro>& vampirosJ();
 	std::vector<Nivel>& nivelesJ();
 	void agregarNivel(Nivel& n, int i);
-    void jugarNivel(Nivel& n, int i);
+  void jugarNivel(Nivel& n, int i);
 	std::vector<Nivel> estosSaleFacil();
 	void altoCheat(int n);
 	bool muyDeExactas();
